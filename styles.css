@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background: #171616;
+    display: flex;
+    justify-items: center;
+    position: fixed;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+.logo .color{
+    color: red;
+}
+.navbar{
+    width: 50%;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+.navbar ul li a{
+    justify-content: space-between;
+    list-style: none;
+    margin: 10px 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+li{
+    list-style: none;
+}
+.home{
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    height: 600px;
+    background-image: url("images/home.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    color: white;
+    padding: 450px 10px;
+}
+.bands{
+    width: 100%;
+    height: 500px;
+    margin: 15px auto;
+    text-align: center;
+    justify-content: center;
+}
+.bands h2{
+    font-family: 'DM Serif Display', seri
+}
+.bands h4{
+    opacity: 0.5;
+    padding: 10px 10px;
+}
+.bands p{
+    margin-bottom: 10px;
+}
+.theband{
+    width: 100%;
+    height: 500px;
+    margin: 15px auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.profile{
+    width: 200px;
+    height: 300px;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 10px;
+    flex-wrap: nowrap;
+}
+.profile img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.events{
+    width: 100%;
+    height: 750px;
+    margin: 30px 10px;
+    padding: 10px 10px;
+    text-align: center;
+    justify-content: center;
+}
+.events h2{
+    padding: 10px 10px;
+    margin: 0px 10px;
+}
+.an_event{
+    margin: auto;
+    padding: 10px 10px;
+    width: 500px;
+    height: 50px;
+    background: #f2f2f2;
+    border-radius: 5px;
+}
+.an_event p{
+    border-bottom: 2px solid black;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+.an_event p span{
+    margin-left: 50px;
+}
+.soldout{
+    color: red;
+}
+.events .desc{
+    padding: 10px 10px;
+    font-style: italic;
+    opacity: 0.6;
+}
+.book{
+    width: 100%;
+    height: auto;
+    margin: 15px 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    object-fit: contain;
+}
+.book img{
+    width: 249px;
+    height: 200px;
+    border-radius: 5px;
+}
+.book img:hover{
+    opacity: 0.7;
+}
+.booking{
+    width: 250px;
+    height: 450px;
+    border: 2px solid black;
+    margin: 10px 30px;
+    border-radius: 5px;
+}
+.booking p, h2{
+    padding: 5px 10px;
+}
+.date{
+    opacity: 0.6;
+}
+button{
+    padding: 10px 5px;
+    font-size: 15px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.contacts{
+    margin: 10px 10px;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+.conts{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    padding: 10px 10px;
+    text-align: center;
+    align-items: center;
+}
+.conts .left{
+    width: 550px;
+    padding: 15px 10px;
+}
+.conts .right{
+    width: 550px;
+    margin-top: 70px;
+    padding: 15px 10px;
+}
+.right input{
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.right textarea{
+    margin: 15px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    justify-content: left;
+    text-align: center;
+}
+.contacts .desc{
+    opacity: 0.6;
+    font-style: italic;
+}
+footer{
+    font-size: 15px;
+    width: 100%;
+    height: 80px;
+    color: white;
+    background: black;
+    padding: 10px 10px;
+    text-align: center;
+}
